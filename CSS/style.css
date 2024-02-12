@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6a5acd; s
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+
+.banner {
+    background-image: url('https://www.chromethemer.com/download/hd-wallpapers/maldives-3840x2160.jpg'); 
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.banner p {
+    font-size: 1.5em;
+}
+
+.destination-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -50px; 
+}
+
+.destination {
+    width: 30%;
+    background-color: #fff;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+.destination h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.destination p {
+    color: #888;
+    font-size: 1.2em;
+}
+
+.destination img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px; 
+}
+
+.social-footer {
+    background-color: #333; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+    color: white;
+    font-size: 24px; 
+    text-decoration: none; 
+}
+
+
+.social-icon:hover {
+    color: #aaa; 
+}
+
+.social-icon img {
+    width: 40px; 
+    height: 40px; 
+    display: inline-block; 
+    border: none; 
+    margin: 0 10px; 
+}
